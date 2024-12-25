@@ -1,50 +1,32 @@
-# React + TypeScript + Vite
+# 🌳 TreeHub - Your Online Tree Store
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**TreeHub** is an e-commerce platform for buying and managing tree products. Users can explore tree details, add trees to their cart, and manage trees via a dashboard. This project is built with **React**, **Redux**, and **TypeScript** for a scalable and modern web application.
 
-Currently, two official plugins are available:
+## 🛠 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Tree Catalog**: Browse and view detailed information about trees.
+- **Add to Cart**: Easily add trees to your cart for purchase.
+- **Admin Dashboard**: Manage tree data (add, update, delete).
+- **Responsive Design**: Optimized for mobile and desktop users.
+- **Live Demo**: [TreeHub Live](https://treehubfronend.vercel.app/)
 
-## Expanding the ESLint configuration
+## 🔗 Live Demo
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Check out the live application: [TreeHub](https://treehubfronend.vercel.app/)
 
-- Configure the top-level `parserOptions` property like this:
+## 🚀 Technologies Used
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **React.js**: Frontend framework for building UI.
+- **Redux.js**: State management library for predictable state updates.
+- **TypeScript**: Ensures type safety and better code maintainability.
+- **Vercel**: For hosting the live demo.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📦 Installation and Setup
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow these steps to set up the project locally:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/treehub.git
+   cd treehub
+ 
